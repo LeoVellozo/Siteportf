@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro HTML + CSS</title>
+    <link rel="shortcut icon" href="img/lv-logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300&family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <img id="logo" src="img/lv-logo.png">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" onclick="irTop()">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" onclick="irCriacoes()">Criações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" onclick="irSobreMim()">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" onclick="irContate()">Contate-me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- FIM MENU -->
+    <div id="banner"></div>
+    <!-- FIM BANNER -->
+    <div class="titulo-cont">
+        <div class="container titulo col-3">
+            <span>c</span>riações
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <a href="https://codepen.io/leo-vellozo/pen/RwQKddE"><img class="card-img rounded" src="img/site-full-css.png"></a>
+                <div class="card-body">
+                    <p class="card-text">frontend feito todo em HTML e CSS</p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <a href="https://codepen.io/leo-vellozo/pen/RwQKddE"><img class="card-img rounded" src="img/site-full-css.png"></a>
+                <div class="card-body">
+                    <p class="card-text">frontend feito todo em HTML e CSS</p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <a href="https://codepen.io/leo-vellozo/pen/RwQKddE"><img class="card-img rounded" src="img/site-full-css.png"></a>
+                <div class="card-body">
+                    <p class="card-text">frontend feito todo em HTML e CSS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIM CONTAINER CRIACOES -->
+    <div class="titulo-cont">
+        <div class="container titulo col-3">
+            <span>s</span>obre <span>m</span>im
+        </div>
+    </div>
+    <div id="sobre-mim" class="container">
+        <span>Me chamo Leonardo,</span>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card-body rounded sobre-mim">
+                    <h1>Qualidades:</h1>
+                    <h2>
+                        Bastante comunicativo, <br/> Nunca desisto de metas estabelecidas, <br/> Sempre empenhado em ajudar os outros em suas dificuldades, <br/> Facilidade em aprender e enfrentar desafios, <br/> Adoro programar.
+                    </h2>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card-body rounded sobre-mim">
+                    <h1>Linguagens Aprendidas:</h1>
+                    <h2>
+                        JavaScrip,<br/> PHP, <br/> C#, <br/> Java.
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card-body rounded sobre-mim">
+                    <h1>Frameworks Aprendidos:</h1>
+                    <h2>
+                        Bootstrap
+                    </h2>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card-body rounded sobre-mim">
+                    <h1>IDE`s que ja utilizei:</h1>
+                    <h2>
+                        VS code,<br/> Unity,<br/> Android Std.
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FIM CONTAINER SOBRE MIM  -->
+    <div class="titulo-cont">
+        <div class="container titulo col-3">
+            <span>c</span>ontate-me
+        </div>
+    </div>
+    <div id="rodape">
+        <div class="container">
+            <h1>Email: <a href="mailto:l.vellozo@hotmail.com">L.vellozo@hotmail.com</a> ou <a href="mailto:ozollev@gmail.com">Ozollev@gmail.com</a> </h1>
+            <h1>Whatsapp: <a href="tel:+5521996812591">(21)99681-2591 <img src="https://logospng.org/download/whatsapp/logo-whatsapp-verde-icone-ios-android-256.png"></a></h1>
+            <h1>Social:
+                <a href="https://www.facebook.com/leo.vellozo/"><img src="https://icon-library.com/images/facebook-icon-f/facebook-icon-f-19.jpg"></a>
+                <a href="https://www.instagram.com/lvellozo/"><img src="https://cdn.iconscout.com/icon/free/png-256/instagram-1865894-1581910.png"></a>
+
+            </h1>
+        </div>
+    </div>
+    <!-- FIM RODAPE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="js/function.js"></script>
+</body>
+
+</html>
