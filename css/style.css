@@ -25,6 +25,8 @@ p {
     width: 100%;
     height: 600px;
     background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 66px;
 }
 
